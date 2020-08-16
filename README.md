@@ -32,7 +32,7 @@ Some numerical analysis algorithms, written from scratch in Octave.
   
   * **modified step**: uses the [supremum norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#Maximum_norm_(special_case_of:_infinity_norm,_uniform_norm,_or_supremum_norm)) to normalize the eigen vector in each step.
   
-  * **reyleigh step**: uses the [euclidean norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#Euclidean_norm) to normalize the eigen vector in each step. This method makes use of the [rayleigh quotient](https://en.wikipedia.org/wiki/Rayleigh_quotient).
+  * **reyleigh step**: uses the [euclidean norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#Euclidean_norm) to normalize the eigen vector in each step. This method makes use of the [Rayleigh quotient](https://en.wikipedia.org/wiki/Rayleigh_quotient).
   
   * **aitikens step**: uses the modified step above, but also makes use of the [Aitiken's delta-squared process](https://en.wikipedia.org/wiki/Aitken%27s_delta-squared_process) for accelerating the rate of convergence.
   
@@ -45,6 +45,8 @@ Some numerical analysis algorithms, written from scratch in Octave.
 * `simpsons_integral.m`  an implementation of the [Simpson's rule](https://en.wikipedia.org/wiki/Simpson%27s_rule).
 
 * `trapezodial_integral.m` an implementation of the [trapezoidal rule](https://en.wikipedia.org/wiki/Trapezoidal_rule).
+
+All the functions above for numerical quadrature are using the method `split_intertval.m` as helper function.
 
 ## Notes
 
