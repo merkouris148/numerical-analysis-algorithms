@@ -10,7 +10,7 @@ Some numerical analysis algorithms, written from scratch in Octave.
 
 * `newton_raphson.m` an implementation of the [Newton-Ramphson's method](https://en.wikipedia.org/wiki/Newton%27s_method). The Newton-Raphson's method converges quadraticly, if certain criteria are met.
 
-* `b_nr.m`  a combination of the Newton-Raphson's method. The algorithm, intilally, finds a solution using the Newton-Raphson's method (which is a heavely computational task) and then enchanches the solution's estimation using (the much simpler) bisection method.
+* `b_nr.m`  a combination of the Newton-Raphson's method. The algorithm, intilally, finds a solution using the Newton-Raphson's method (which is a heavy computational task) and then enchanches the solution's estimation using (the much simpler) bisection method.
 
 ### Linear algebra methods
 
